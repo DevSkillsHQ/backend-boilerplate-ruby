@@ -10,7 +10,8 @@ Use it for setting up a take-home interview assignment or a portfolio project.
 
 ## Tech Stack
 
-- Rail
+- Ruby 2.7.0
+- Rails 6.1.3
 - Cypress
 - GitHub Actions
 
