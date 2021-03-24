@@ -2,8 +2,8 @@
   "name": "backend-boilerplate",
   "version": "0.0.1",
   "scripts": {
-    "build": "cd app && npm run build",
-    "start": "cd app && npm run start",
+    "build": "cd app && bundle update --bundler && bundle update && npm install",
+    "start": "cd app && bin/rails server",
     "test": "cypress run"
   },
   "devDependencies": {
