@@ -2,7 +2,7 @@
   "name": "backend-boilerplate",
   "version": "0.0.1",
   "scripts": {
-    "build": "cd app && bundle update --bundler && bundle update && npm install",
+    "build": "cd app && bundle update --bundler && bundle update && npm install && bin/rails db:migrate RAILS_ENV=development",
     "start": "cd app && bin/rails server",
     "test": "cypress run"
   },
