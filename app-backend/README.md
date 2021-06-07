@@ -1,4 +1,4 @@
-# Frontend Boilerplate Ruby
+# Backend Boilerplate Ruby
 
 ## Project Structure
 
