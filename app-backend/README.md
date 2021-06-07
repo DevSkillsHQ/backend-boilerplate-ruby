@@ -16,13 +16,11 @@ rvm install 2.7.0
 2. Build your app.
 
 ```bash
-npm install
-npm run build:backend # only Rails backend
+bundle update --bundler && bundle update && npm install && bin/rails db:migrate RAILS_ENV=development
 ```
 
 3. Start your app.
 
 ```bash
-npm install
-npm run start:backend # only Rails backend
+bin/rails server
 ```
