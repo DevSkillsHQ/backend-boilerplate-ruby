@@ -1,5 +1,5 @@
 class PingController < ApplicationController
-  def show
-    render json: {response: "pong"}
+    def show
+      render json: {response: "pong"}
+    end
   end
-end

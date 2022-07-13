@@ -16,7 +16,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.7.0
+          ruby-version: 3.1.2
       - name: Fetch apiUrl
         run: echo ::set-output name=apiUrl::$(jq -r .env.apiUrl cypress.json)/ping
         id: fetchApiUrl

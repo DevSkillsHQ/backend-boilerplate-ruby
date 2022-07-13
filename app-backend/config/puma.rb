@@ -13,7 +13,7 @@ threads min_threads_count, max_threads_count
 #
 worker_timeout 3600 if ENV.fetch("RAILS_ENV", "development") == "development"
 
-# Specifies the `port` that Puma will listen on to receive requests; default is 8080.
+# Specifies the `port` that Puma will listen on to receive requests; default is 3000.
 #
 port ENV.fetch("PORT") { 8080 }
 
@@ -39,5 +39,5 @@ pidfile ENV.fetch("PIDFILE") { "tmp/pids/server.pid" }
 #
 # preload_app!
 
-# Allow puma to be restarted by `rails restart` command.
+# Allow puma to be restarted by `bin/rails restart` command.
 plugin :tmp_restart
