@@ -12,8 +12,8 @@ A backbone for your coding challenge.
 
 ### Backend
 
-- Ruby 2.7.0
-- Rails 6.1.3
+- Ruby 3.1.2
+- Rails 7.0.3.1
 
 #### Additional libs
 
@@ -27,11 +27,11 @@ A backbone for your coding challenge.
 
 ## Getting started
 
-1. Make sure the required version of Ruby (2.7.0) is configured on your local env.
+1. Make sure the required version of Ruby (3.1.2) is configured on your local env.
 
 ```bash
 curl -sSL https://get.rvm.io | bash
-rvm install 2.7.0
+rvm install 3.1.2
 ```
 
 2. Make sure npm & node are configured on your local env. You can download those distributions for your platform [here](https://nodejs.org/en/download/)

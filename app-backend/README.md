@@ -1,4 +1,4 @@
-# Backend Boilerplate Ruby
+# Backend Boilerplate Ruby on Rails
 
 ## Project Structure
 
@@ -6,11 +6,11 @@ This project follows [the standard Rails project structure](https://www.tutorial
 
 ## Getting started
 
-1. Make sure the required version of Ruby (2.7.0) is configured on your local env.
+1. Make sure the required version of Ruby (3.1.2) is configured on your local env.
 
 ```bash
 curl -sSL https://get.rvm.io | bash
-rvm install 2.7.0
+rvm install 3.1.2
 ```
 
 2. Build your app.
