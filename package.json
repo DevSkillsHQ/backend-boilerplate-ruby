@@ -1,12 +1,12 @@
 {
   "name": "backend-boilerplate-ruby",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "scripts": {
     "build": "cd app-backend && bundle update --bundler && bundle update && npm install && bin/rails db:migrate RAILS_ENV=development",
     "start": "cd app-backend && bin/rails server",
     "test": "cypress run"
   },
   "devDependencies": {
-    "cypress": "^8.6.0"
+    "cypress": "^9.7.0"
   }
 }

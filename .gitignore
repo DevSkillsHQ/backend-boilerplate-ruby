@@ -6,3 +6,5 @@ cypress/videos
 
 # macOS
 .DS_Store
+
+.idea
