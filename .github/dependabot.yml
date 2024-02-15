@@ -1,0 +1,9 @@
+version: 2
+updates:
+  - package-ecosystem: "gem"
+    directory: "/app-backend"
+    schedule:
+      interval: "daily"
+    labels:
+      - "ruby"
+      - "dependencies"
